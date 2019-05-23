@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo-animales.css"?>
+<animales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/_IFCD0210/MF0491-3%20CLIENTE/UF1841/E2/AnimalesPrueba.xsd">
+	<animal>
+		<nombre>Perros</nombre>
+		<doméstico>Son domésticos</doméstico>
+		<patas>Tienen 4 patas</patas>
+		<sonido>Emiten ladridos</sonido>
+		<dato>"El perro es el mejor amigo del hombre"</dato>
+	</animal>
+	<animal>
+		<nombre>Patos</nombre>
+		<doméstico>Son salvajes</doméstico>
+		<patas>Tienen 2 patas</patas>
+		<sonido>Emiten graznidos</sonido>
+		<dato>"Los patos tienen 3 párpados en cada ojo"</dato>
+	</animal>
+	<animal>
+		<nombre>Ballenas</nombre>
+		<domético>Son salvajes</domético>
+		<patas>No tienen patas</patas>
+		<sonido>Emiten canto</sonido>
+		<dato>"Algunas ballenas pueden vivir hasta 200 años"</dato>
+	</animal>
+	<animal>
+		<nombre>Gorila</nombre>
+		<doméstico>Son salvajes</doméstico>
+		<patas>Tienen 2 patas</patas>
+		<sonido>Emiten rugidos</sonido>
+		<dato>"El ADN de los gorilas es entre 97-98% idéntico al del humano"</dato>
+	</animal>
+	<animal>
+		<nombre>Delfínes</nombre>
+		<doméstico>Son salvajes</doméstico>
+		<patas>No tienen patas</patas>
+		<sonido>Emiten chasquido</sonido>
+		<dato>"Los delfines sólo duermen con mitad del cerebro, la otra mitad se mantiene despierta"</dato>
+	</animal>
+	<animal>
+		<nombre>Gatos</nombre>
+		<doméstico>Son domésticos</doméstico>
+		<patas>Tienen 4 patas</patas>
+		<sonido>Emiten maullidos</sonido>
+		<dato>"Los gatos pueden tener alergia a los humanos"</dato>
+	</animal>
+	<animal>
+		<nombre>Burros</nombre>
+		<doméstico>Son salvajes</doméstico>
+		<patas>Tienen 4 patas</patas>
+		<sonido>Emiten rebuzno</sonido>
+		<dato>"Los burros pueden recorda lugares y burros por 25 años"</dato>
+	</animal>
+	<animal>
+		<nombre>Canarios</nombre>
+		<doméstico>Son domésticos</doméstico>
+		<patas>Tienen 2 patas</patas>
+		<sonido>Emiten canto</sonido>
+		<dato>"Los canarios son muy afectuosos entre ellos"</dato>
+	</animal>
+</animales>

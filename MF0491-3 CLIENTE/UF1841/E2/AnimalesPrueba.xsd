@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="animal">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre"/>
+				<xs:choice>
+					<xs:element ref="doméstico"/>
+					<xs:element ref="domético"/>
+				</xs:choice>
+				<xs:element ref="patas"/>
+				<xs:element ref="sonido"/>
+				<xs:element ref="dato"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="animales">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="animal" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dato" type="xs:string"/>
+	<xs:element name="doméstico">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Son domésticos"/>
+				<xs:enumeration value="Son salvajes"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="domético">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Son salvajes"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="nombre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Ballenas"/>
+				<xs:enumeration value="Burros"/>
+				<xs:enumeration value="Canarios"/>
+				<xs:enumeration value="Delfínes"/>
+				<xs:enumeration value="Gatos"/>
+				<xs:enumeration value="Gorila"/>
+				<xs:enumeration value="Patos"/>
+				<xs:enumeration value="Perros"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="patas">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="No tienen patas"/>
+				<xs:enumeration value="Tienen 2 patas"/>
+				<xs:enumeration value="Tienen 4 patas"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="sonido">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Emiten canto"/>
+				<xs:enumeration value="Emiten chasquido"/>
+				<xs:enumeration value="Emiten graznidos"/>
+				<xs:enumeration value="Emiten ladridos"/>
+				<xs:enumeration value="Emiten maullidos"/>
+				<xs:enumeration value="Emiten rebuzno"/>
+				<xs:enumeration value="Emiten rugidos"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>
