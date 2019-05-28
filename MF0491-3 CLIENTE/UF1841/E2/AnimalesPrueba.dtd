@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<!ELEMENT dato (#PCDATA)>
+<!ELEMENT patas (#PCDATA)>
+<!ELEMENT animal (nombre, (doméstico | domético), patas, sonido, dato)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sonido (#PCDATA)>
+<!ELEMENT animales (animal+)>
+<!ATTLIST animales
+	xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+>
+<!ELEMENT domético (#PCDATA)>
+<!ELEMENT doméstico (#PCDATA)>
